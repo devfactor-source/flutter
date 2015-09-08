@@ -1079,3 +1079,204 @@ Cannot render console from 131.191.76.80! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 131.191.76.80 at 2015-08-10 00:14:33 +0000
 Cannot render console from 131.191.76.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 131.191.32.10 at 2015-09-08 18:12:14 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.4ms)
+Completed 200 OK in 377ms (Views: 362.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-99a4bb46583e389d175a80bb84915e1054e3b359cbcd8e554787fb6e110f6ec3.css?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 131.191.32.10 at 2015-09-08 18:12:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36m (32.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (14.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to DeviseCreateUsers (20150908181602)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150908181602"]]
+  [1m[36m (13.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 131.191.32.10 at 2015-09-08 18:16:29 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_nav.html.erb (0.7ms)
+Completed 200 OK in 604ms (Views: 589.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 131.191.32.10 at 2015-09-08 18:16:34 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (72.0ms)
+  Rendered layouts/_nav.html.erb (0.1ms)
+Completed 200 OK in 275ms (Views: 246.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_up" for 131.191.32.10 at 2015-09-08 18:16:50 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_nav.html.erb (0.1ms)
+Completed 200 OK in 246ms (Views: 243.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 131.191.32.10 at 2015-09-08 18:16:58 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z13wwS+Ar0d8XvEH380SE5qch1nTBHzH59wvY5fssiIVmu2+btPtLNHesISq2wAdjFCWJIlJPpZCUJD4c354Rw==", "user"=>{"email"=>"testUser@testUser.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'testuser@testuser.com' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "testuser@testuser.com"], ["encrypted_password", "$2a$10$He9NjPvXtvePzWFZjkpS6.xZBDHMbCXPIFZ5yDGavoG5SjV48hC4K"], ["created_at", "2015-09-08 18:16:58.361023"], ["updated_at", "2015-09-08 18:16:58.361023"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-09-08 18:16:58.373468"], ["current_sign_in_at", "2015-09-08 18:16:58.373468"], ["last_sign_in_ip", "131.191.32.10"], ["current_sign_in_ip", "131.191.32.10"], ["sign_in_count", 1], ["updated_at", "2015-09-08 18:16:58.374539"], ["id", 1]]
+  [1m[35m (6.8ms)[0m  commit transaction
+Redirected to https://flutter-devfactor-source.c9.io/
+Completed 302 Found in 170ms (ActiveRecord: 17.2ms)
+
+
+Started GET "/" for 131.191.32.10 at 2015-09-08 18:16:58 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.1ms)
+Completed 200 OK in 165ms (Views: 163.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 131.191.32.10 at 2015-09-08 18:18:02 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to https://flutter-devfactor-source.c9.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 131.191.32.10 at 2015-09-08 18:18:02 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (29.0ms)
+Completed 500 Internal Server Error in 202ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x000000052d7a80>:0x007fca292e1328>):
+    1: <% if user.signed_in? %>
+    2:   Hello, World!
+    3: <% end %>
+    4: <nav class="navbar navbar-default">
+  app/views/layouts/_nav.html.erb:1:in `_app_views_layouts__nav_html_erb___2766241084678976352_70253131991020'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___4540952567284958462_43077560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.7ms)
