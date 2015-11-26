@@ -2756,3 +2756,637 @@ Migrating to CreatePosts (20151102063056)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["content", "post content"], ["user_id", 7], ["created_at", "2015-11-02 06:33:57.525401"], ["updated_at", "2015-11-02 06:33:57.525401"]]
   [1m[36m (6.5ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 131.191.32.10 at 2015-11-25 03:08:32 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_nav_guest.html.erb (2.3ms)
+  Rendered layouts/_nav.html.erb (15.0ms)
+Completed 200 OK in 891ms (Views: 854.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-99a4bb46583e389d175a80bb84915e1054e3b359cbcd8e554787fb6e110f6ec3.css?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:33 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:34 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:34 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:34 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:34 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:34 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:34 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 131.191.32.10 at 2015-11-25 03:08:34 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 131.191.32.10 at 2015-11-25 03:08:46 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_nav_guest.html.erb (0.8ms)
+  Rendered layouts/_nav.html.erb (3.9ms)
+Completed 200 OK in 193ms (Views: 191.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.191.32.10 at 2015-11-25 03:08:53 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (4.3ms)
+Completed 200 OK in 236ms (Views: 235.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explore" for 131.191.32.10 at 2015-11-25 03:09:04 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  Rendered pages/explore.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 287ms (Views: 286.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.191.32.10 at 2015-11-25 03:09:07 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 222ms (Views: 221.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 131.191.32.10 at 2015-11-25 03:09:22 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (91.7ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 389ms (Views: 361.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 131.191.32.10 at 2015-11-26 15:53:11 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_nav_guest.html.erb (1.0ms)
+  Rendered layouts/_nav.html.erb (19.2ms)
+Completed 200 OK in 850ms (Views: 826.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-99a4bb46583e389d175a80bb84915e1054e3b359cbcd8e554787fb6e110f6ec3.css?body=1" for 131.191.32.10 at 2015-11-26 15:53:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 131.191.32.10 at 2015-11-26 15:53:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 131.191.32.10 at 2015-11-26 15:53:19 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (66.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 309ms (Views: 289.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users" for 131.191.32.10 at 2015-11-26 15:53:35 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"szw+C5YCuFpggLu7ViJs8ET+TiDIngLCFOO8gSmH66E1T6NAKqPYo/qhCsS1QETca1C+NeniN3vNXj/yAIFYeA==", "user"=>{"username"=>"youtubetest", "email"=>"yttest@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'yttest@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("username", "email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["username", "youtubetest"], ["email", "yttest@gmail.com"], ["encrypted_password", "$2a$10$uX8rzJHSWwo5L1ZErxR1IexJ3qc3/8lTeoLTwAn67l3pfmhaTPH1y"], ["created_at", "2015-11-26 15:53:35.542888"], ["updated_at", "2015-11-26 15:53:35.542888"]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-11-26 15:53:35.554845"], ["current_sign_in_at", "2015-11-26 15:53:35.554845"], ["last_sign_in_ip", "131.191.32.10"], ["current_sign_in_ip", "131.191.32.10"], ["sign_in_count", 1], ["updated_at", "2015-11-26 15:53:35.556052"], ["id", 8]]
+  [1m[35m (11.2ms)[0m  commit transaction
+Redirected to https://flutter-devfactor-source.c9.io/
+Completed 302 Found in 248ms (ActiveRecord: 21.4ms)
+
+
+Started GET "/" for 131.191.32.10 at 2015-11-26 15:53:35 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (1.4ms)
+  Rendered layouts/_nav.html.erb (8.8ms)
+Completed 200 OK in 282ms (Views: 280.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/edit" for 131.191.32.10 at 2015-11-26 15:53:45 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_nav_user.html.erb (1.0ms)
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 277ms (Views: 274.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 15:53:47 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "youtubetest"]]
+  Rendered pages/profile.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (4.4ms)
+Completed 200 OK in 228ms (Views: 220.6ms | ActiveRecord: 0.6ms)
+  [1m[36mPost Load (5.8ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["content", "New Post!"], ["user_id", 8], ["created_at", "2015-11-26 15:55:05.955597"], ["updated_at", "2015-11-26 15:55:05.955597"]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+
+
+Started GET "/" for 131.191.32.10 at 2015-11-26 15:55:15 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 223ms (Views: 221.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 15:55:20 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  Rendered pages/profile.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (7.9ms)
+Completed 200 OK in 219ms (Views: 216.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 15:56:38 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/profile.html.erb within layouts/application (5.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (4.6ms)
+Completed 200 OK in 290ms (Views: 251.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 131.191.32.10 at 2015-11-26 15:56:53 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 245ms (Views: 243.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 15:56:55 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/profile.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (4.1ms)
+Completed 200 OK in 242ms (Views: 239.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 15:57:27 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "youtubetest"]]
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/profile.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 223ms (Views: 220.4ms | ActiveRecord: 0.7ms)
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  [1m[35mPost Load (0.9ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ?  ORDER BY "posts"."created_at" DESC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ?  ORDER BY "posts"."created_at" DESC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "posts" SET "content" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["content", "Hello, World!"], ["updated_at", "2015-11-26 15:58:40.708914"], ["id", 1]]
+  [1m[35m (11.1ms)[0m  commit transaction
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 15:58:44 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/profile.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (4.1ms)
+Completed 200 OK in 236ms (Views: 233.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 15:58:50 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "youtubetest"]]
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/profile.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (8.2ms)
+Completed 200 OK in 235ms (Views: 232.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 15:59:06 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/profile.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (4.2ms)
+Completed 200 OK in 240ms (Views: 237.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/home" for 131.191.32.10 at 2015-11-26 15:59:13 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (4.2ms)
+Completed 200 OK in 257ms (Views: 255.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 131.191.32.10 at 2015-11-26 15:59:14 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (4.2ms)
+Completed 200 OK in 240ms (Views: 238.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 131.191.32.10 at 2015-11-26 15:59:40 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:         </div>
+     8:     </div>
+     9:     <div class="col-xs-6">
+    10:         <% for @p in @posts %>
+    11:         <div class="panel panel-default">
+    12:           <div class="panel-body">
+    13:             <p><%= @p.content %></p>
+  app/views/pages/home.html.erb:10:in `_app_views_pages_home_html_erb__4152247315105343831_70334217772360'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (110.9ms)
+
+
+Started GET "/home" for 131.191.32.10 at 2015-11-26 15:59:40 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:         </div>
+     8:     </div>
+     9:     <div class="col-xs-6">
+    10:         <% for @p in @posts %>
+    11:         <div class="panel panel-default">
+    12:           <div class="panel-body">
+    13:             <p><%= @p.content %></p>
+  app/views/pages/home.html.erb:10:in `_app_views_pages_home_html_erb__4152247315105343831_30805860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (97.9ms)
+
+
+Started GET "/" for 131.191.32.10 at 2015-11-26 16:00:02 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (7.3ms)
+  Rendered layouts/_nav.html.erb (27.9ms)
+Completed 200 OK in 332ms (Views: 323.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/home" for 131.191.32.10 at 2015-11-26 16:00:04 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (7.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (6.4ms)
+Completed 200 OK in 322ms (Views: 315.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/explore" for 131.191.32.10 at 2015-11-26 16:01:03 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 211ms (Views: 208.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 16:01:08 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/profile.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (4.3ms)
+Completed 200 OK in 221ms (Views: 217.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 16:03:06 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[36mUser Load (4.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "youtubetest"]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE (user_id = 8)  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/profile.html.erb within layouts/application (6.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.9ms)
+Completed 200 OK in 280ms (Views: 247.3ms | ActiveRecord: 7.0ms)
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+
+
+Started GET "/explore" for 131.191.32.10 at 2015-11-26 16:04:08 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/explore.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 261ms (Views: 259.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/explore" for 131.191.32.10 at 2015-11-26 16:04:09 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/explore.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 296ms (Views: 293.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 16:04:12 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "youtubetest"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE (user_id = 8)  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/profile.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (5.3ms)
+  Rendered layouts/_nav.html.erb (10.3ms)
+Completed 200 OK in 298ms (Views: 294.2ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "Next Post!"], ["user_id", 8], ["created_at", "2015-11-26 16:04:34.631245"], ["updated_at", "2015-11-26 16:04:34.631245"]]
+  [1m[35m (9.0ms)[0m  commit transaction
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 16:04:37 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "youtubetest"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE (user_id = 8)  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/profile.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (11.7ms)
+Completed 200 OK in 259ms (Views: 255.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/home" for 131.191.32.10 at 2015-11-26 16:04:45 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (3.8ms)
+Completed 200 OK in 252ms (Views: 250.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 131.191.32.10 at 2015-11-26 16:05:24 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 272ms (Views: 270.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/explore" for 131.191.32.10 at 2015-11-26 16:05:41 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/explore.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (6.5ms)
+Completed 200 OK in 210ms (Views: 208.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/user/youtubetest" for 131.191.32.10 at 2015-11-26 16:05:44 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"youtubetest"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "youtubetest"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "youtubetest"]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE (user_id = 8)  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/profile.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.7ms)
+Completed 200 OK in 305ms (Views: 301.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/home" for 131.191.32.10 at 2015-11-26 16:05:55 +0000
+Cannot render console from 131.191.32.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.8ms)
+Completed 200 OK in 218ms (Views: 215.6ms | ActiveRecord: 0.6ms)

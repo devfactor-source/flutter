@@ -1,2 +1,10 @@
-<h1>Pages#explore</h1>
-<p>Find me in app/views/pages/explore.html.erb</p>
+
+<div class="col-xs-6">
+    <% for @p in @posts %>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p><%= @p.content %></p>
+      </div>
+    </div>
+    <% end %>
+</div>
