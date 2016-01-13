@@ -1,11 +1,15 @@
 <!-- begin row 2. -->
 <div class="row">
     <div class="col-xs-3">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <p>profile</p>
-          </div>
-        </div>
+      <div class="col-sm-12" style="margin-top: -200px;">
+            <img src="/avatar.png" height="200px" width="200px" class="rounded-img">
+      </div>
+      <div class="col-sm-12">
+        <h3 style="font-weight: bold;"><%= params[:id] %></h3>
+        <p>
+          Full-Length Project-Based Tutorials on Engineering, Business & Design. Also on YouTube <a href="http://www.youtube.com/devfactor">http://www.youtube.com/devfactor</a>
+        </p>
+      </div>
     </div>
     
     <div class="col-xs-6">
@@ -36,17 +40,37 @@
           </div>
         </div>
         <% end %>
+        
+        <div class="panel panel-default post-panel">
+          <div class="panel-body row">
+            <div class="col-sm-12">
+            <center><img src="/icon.png" height="25px" width="25px"></img>
+              <a href="#top"><p class="opacity: .7;">Back to top <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></p></a></center>
+            </div>
+          </div>
+        </div>
     </div>
     
     <div class="col-xs-3">
+      
         <div class="panel panel-default">
           <div class="panel-body">
-            <p>who to follow</p>
+             <h5 style="color: grey; font-size: 125%;">Who to follow</h5>
+             <% for @u in @toFollow do %>
+               <p style="font-weight: bold; opacity: 0.85;" ><a href="/user/<%= @u.username %>"><%= @u.username %></a></p>
+             <% end %>
           </div>
         </div>
+        
         <div class="panel panel-default">
           <div class="panel-body">
-            <p>trends</p>
+             <h5 style="color: grey; font-size: 125%;">Trends</h5>
+              <a href="">#Trend #1</a><br>
+                <span style="color: grey;">31k Posts</span><br><br>
+              <a href="">#Trend #2</a><br>
+                <span style="color: grey;">25k Posts</span><br><br>
+              <a href="">#Trend #3</a><br>
+                <span style="color: grey;">16k Posts</span><br><br>
           </div>
         </div>
     </div>
